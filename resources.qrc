@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/off_button.svg</file>
+        <file>img/on_button.svg</file>
+        <file>img/snowhaze-logo.png</file>
+        <file>img/waiting_spinner.gif</file>
+        <file>img/settings_icon.svg</file>
+        <file>img/logout_icon.svg</file>
+        <file>img/back_icon.svg</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>translations/shvpn_de.qm</file>
+        <file>translations/shvpn_de.ts</file>
+        <file>translations/shvpn_fr.qm</file>
+        <file>translations/shvpn_fr.ts</file>
+    </qresource>
+    <qresource prefix="/licenses">
+        <file>LibsodiumLicense</file>
+        <file>QtLICENSE</file>
+        <file>QtKeychainLicense</file>
+    </qresource>
+</RCC>
