@@ -309,7 +309,7 @@ QNetworkRequest APIV3::generateRequest(QUrl url)
     ssl_config.setProtocol(QSsl::TlsV1_3OrLater);
     request.setSslConfiguration(ssl_config);
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
-    request.setTransferTimeout(7000);
+    request.setTransferTimeout(40000);
 
     return request;
 }

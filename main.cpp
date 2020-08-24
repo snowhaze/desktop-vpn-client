@@ -33,6 +33,8 @@ int main(int argc, char *argv[])
     int currentExitCode = 0;
 
     do {
+        QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
+        QGuiApplication::setHighDpiScaleFactorRoundingPolicy(Qt::HighDpiScaleFactorRoundingPolicy::RoundPreferFloor);
         QApplication a(argc, argv);
         a.setOrganizationName("Illotros");
         a.setOrganizationDomain("illotros.ch");
